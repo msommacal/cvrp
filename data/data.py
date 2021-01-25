@@ -1,5 +1,17 @@
 #!/usr/bin/python
 
+"""
+Generate data for the CVRP solver.
+
+The arguments are:
+- n: number of customers
+- Q: capacity of the vehicles
+- min_q: minimum quantity required by customer
+- max_q: maximum quantity required by customer
+- min_w: minimum distance/cost between two customers
+- max_w: maximum distance/cost between two customers
+"""
+
 import random
 import sys
 
