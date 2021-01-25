@@ -33,10 +33,10 @@ make
 ### Usage
 
 The program relies on input files with the following format:
-- line 1: number of customers
+- line 1: number n of customers
 - line 2: capacity of the vehicles
 - line 3: n quantities requested from customers
-- line 4 à 4+n: (n+1)\*(n+1) cost matrix
+- line 4 to 4+n: (n+1)\*(n+1) cost matrix
 
 Example files can be found in the data folder.
 
